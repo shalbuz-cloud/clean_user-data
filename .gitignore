@@ -1,0 +1,35 @@
+# git
+.git/
+
+# pycharm
+.idea/
+__pycache__/
+*/__pycache__/
+*.py[cod]
+.pyc
+*.pyc
+
+# vscode
+.DS_Store
+
+# venv
+venv/
+env/
+
+#
+dist/
+build/
+db.sqlite3
+
+# logs
+*.log
+logs/
+
+# Django migrations
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
+# Django media
+!*media
+!*media/.gitkeep
+media/*
